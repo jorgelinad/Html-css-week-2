@@ -1,0 +1,413 @@
+body {
+    margin: 0px;
+}
+
+/*Barra*/
+
+
+/*Navigation*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.8);
+    height: 44px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+ 
+.nav ul {
+    list-style: none;
+}
+.buscador {
+    text-align: centre;
+    margin-top: 0px;
+}
+
+.barra1 {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+}
+/*.navigationbar {
+    background-color: rgba(0,0,0,0.8) ;
+    height: 44px;*/
+}
+
+.iphoneimage {
+   
+    background-repeat: no-repeat;
+    background-image: url(/v/home/aj/i-2mages/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg);
+}
+
+.shop {
+   text-align: center;
+   background-color: #efeff0;
+   padding: 45px;
+}
+
+.shop1 {
+    text-decoration: none;
+    color: #06c;
+}
+
+h1 {
+    font-size: 54px;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    text-align: center;
+
+}
+
+.title-principal p {
+    font-size: 28px;
+    margin: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.title-principal {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+}
+
+.learn {
+    color: #06c;
+    text-decoration: none;
+    font-size: 21px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.iphone-13-pro {
+    width: 1068px;
+    height: 617px;
+}
+/*iphone13*/
+
+.text2 h2 {
+    font-size: 54px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.text2 p {
+    font-size: 28px;
+    color: #fec2eb;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.buy {
+    font-size: 21px;
+    text-decoration: none;
+    color:#06c;
+    margin-top: 0px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.iphone13 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.text2 {
+    position: absolute;
+}
+
+/*Valentines-day*/
+
+.valentines-day {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.valen-day {
+    position: absolute;
+}
+
+.valen-day h2 {
+    font-size: 28px;
+    color: #602d62;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.valen-day h3 {
+    font-size: 56px;
+    color: #602d62;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.shopping {
+    font-size: 21px;
+    color: #06c;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Watch*/
+
+.wat p {
+    font-size: 17px;
+    color: #bf4800;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.iw {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.wat .p {
+    font-size: 21px;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.watlearn {
+    text-decoration: none;
+    color: #06c;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.watch {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.wat {
+    position: absolute;
+}
+
+/*Shot*/
+
+.shot1 h4 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.shot1 h4:nth-child(2) {
+    margin-top: 0px;
+}
+.shot1 h5 {
+    font-size: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.shot2 {
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+}
+
+.shot {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.shot1 {
+    position: absolute;
+}
+
+/*offer*/
+
+.offer1 p{
+    font-size: 12px;
+    color: #bf4800;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.offer1 h4 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.offer1 h5 {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.offer2 {
+    font-size: 17px;
+    color: #06c;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 230px;
+    margin-left: 230px;
+}
+
+.offer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.offer1 {
+    position: absolute;
+}
+
+/*future*/
+
+.future1 h4 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.future1 h5 {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.future2 {
+    font-size: 17px;
+    color: #06c;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.future {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.future1 {
+    position: absolute;
+}
+
+/*power*/
+
+.power1 h4 {
+    font-size: 40px;
+    color: #f5f5f7;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.power1 h5 {
+    font-size: 21px ;
+    color: #fec2eb ;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.power2 {
+    font-size: 17px;
+    color: #06c;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.power {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.power1 {
+    position: absolute;
+}
+
+/*now*/
+
+.in{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.now1 h5 {
+    font-size: 21px ;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.now2 {
+    font-size: 17px;
+    color: #06c;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.now {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.now1 {
+    position: absolute;
+}
+
+/*Caja*/
+
+.caja {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
