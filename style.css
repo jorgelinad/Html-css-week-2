@@ -19,7 +19,7 @@ body {
     z-index: 100;
 }
  
-.nav ul {
+.nav .barra {
     list-style: none;
 }
 .buscador {
