@@ -32,8 +32,15 @@ body {
     color: white;
     text-decoration: none;
     font-size: 12px;
-    margin-right: 10px;
+    margin-right: 10px;  w
 }
+
+@media ( min-width: 300px ) { .barra1 {
+    font-size: 6px;
+    width: 40%;  }
+}
+  
+
 /*.navigationbar {
     background-color: rgba(0,0,0,0.8) ;
     height: 44px;*/
@@ -128,6 +135,15 @@ h1 {
 .text2 {
     position: absolute;
 }
+
+@media (min-width:300px) {
+    
+    }
+}
+
+}
+
+
 
 /*Valentines-day*/
 
