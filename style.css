@@ -1,5 +1,6 @@
-body {
+* {
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -8,48 +9,45 @@ body {
 
 /*Navigation*/
 
+.navigation {
+}
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgba(0,0,0,0.8);
     height: 44px;
     align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
+    list-style: none;
+    max-width: 1346px;
+    margin: 0 auto;
 }
  
-.nav .barra {
-    list-style: none;
-}
 .buscador {
-    text-align: centre;
+    align-items: centre;
     margin-top: 0px;
 }
 
 .barra1 {
-    color: white;
+
+    opacity: .8;
+    color: #f5f5f7;
     text-decoration: none;
     font-size: 12px;
-    margin-right: 10px;  w
+    padding: 10px;
 }
 
-@media ( min-width: 300px ) { .barra1 {
-    font-size: 6px;
-    width: 40%;  }
+.barra1:hover{
+    opacity: 1 3s;
 }
-  
 
-/*.navigationbar {
-    background-color: rgba(0,0,0,0.8) ;
-    height: 44px;*/
-
-.iphoneimage {
+/*.iphoneimage {
    
     background-repeat: no-repeat;
     background-image: url(/v/home/aj/i-2mages/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg);
-}
+}*/
 
 .shop {
    text-align: center;
@@ -62,133 +60,105 @@ body {
     color: #06c;
 }
 
-h1 {
-    font-size: 54px;
-    margin-top: 60px;
-    margin-bottom: 0%;
-    text-align: center;
-
-}
-
-.title-principal p {
-    font-size: 28px;
-    margin: 5px;
-    margin-bottom: 15px;
-    text-align: center;
-}
+/*Titulo principal*/
 
 .title-principal {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.text {
-    position: absolute;
+    height: 580px;
     text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg);
+    background-size: cover;
+    background-position: center ;
+    margin-bottom: 15px;
 }
 
 .learn {
-    color: #06c;
     text-decoration: none;
-    font-size: 21px;
-    text-align: center;
-    margin-right: 20px;
+    color: #06c;
+    margin: 0px 20px;
 }
 
-.iphone-13-pro {
-    width: 1068px;
-    height: 617px;
+.links {
+    padding: 20px;
 }
+
+h1 {
+    font-size: 54px;
+}
+
+.title-principal .p {
+    font-size: 30px;
+}
+
 /*iphone13*/
 
-.text2 h2 {
+.iphone13 h2 {
     font-size: 54px;
     color: white;
-    margin-bottom: 5px;
 }
 
-.text2 p {
+.iphone13 p {
     font-size: 28px;
     color: #fec2eb;
-    margin-top: 0px;
-    margin-bottom: 8px;
+}
+
+.iphone13{
+    height: 624px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium.jpg);
+    background-size: cover;
+    background-position: center ;
+    margin-bottom: 15px;
 }
 
 .buy {
-    font-size: 21px;
     text-decoration: none;
-    color:#06c;
-    margin-top: 0px;
-    margin-right: 20px;
-    text-align: center;
+    color: #06c;
+    margin: 0px 20px;
 }
 
-.iphone13 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+.links1 {
+    padding: 20px;
 }
-
-.text2 {
-    position: absolute;
-}
-
-@media (min-width:300px) {
-    
-    }
-}
-
-}
-
-
 
 /*Valentines-day*/
 
-.valentines-day {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.valen-day {
-    position: absolute;
-}
-
-.valen-day h2 {
+.valentines-day h2 {
     font-size: 28px;
     color: #602d62;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    text-align: center;
 }
 
-.valen-day h3 {
+.valentines-day h3 {
     font-size: 56px;
     color: #602d62;
-    margin-bottom: 0px;
-    margin-top: 0px;
+}
+
+.valentines-day{
+    height: 624px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium.jpg);
+    background-size: cover;
+    background-position: center ;
 }
 
 .shopping {
-    font-size: 21px;
-    color: #06c;
     text-decoration: none;
-    text-align: center;
+    color: #06c;
+    margin: 0px 20px;
 }
+
+.links2 {
+    padding: 20px;
+}
+
 
 /*Watch*/
 
-.wat p {
+.watch p {
     font-size: 17px;
     color: #bf4800;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 0px;
 }
 
 .iw {
@@ -198,191 +168,158 @@ h1 {
     margin-bottom: 0px;
 }
 
-.wat .p {
+.watch .p {
     font-size: 21px;
-    margin-top: 5px;
+}
+
+.watlearn {
+    font-size: 17px;
+}
+
+.watch {
+    height: 624px;
     text-align: center;
-    margin-bottom: 10px;
-    
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg);
+    background-size: cover;
+    background-position: center ;
 }
 
 .watlearn {
     text-decoration: none;
     color: #06c;
-    font-size: 17px;
-    text-align: center;
-    margin-right: 10px;
+    margin: 0px 20px;
 }
 
-.watch {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.wat {
-    position: absolute;
+.links3 {
+    padding: 20px;
 }
 
 /*Shot*/
 
-.shot1 h4 {
+.shot h4 {
     font-size: 40px;
-    margin-bottom: 0px;
 }
 
-.shot1 h4:nth-child(2) {
-    margin-top: 0px;
-}
-.shot1 h5 {
+.shot h5 {
     font-size: 21px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-}
-
-.shot2 {
-    font-size: 17px;
-    text-decoration: none;
-    margin-top: 50px;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: black;
 }
 
 .shot {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    height: 624px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium.jpg);
+    background-size: cover;
+    background-position: center ;
 }
 
-.shot1 {
-    position: absolute;
+.shot2 {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+}
+
+.links4 {
+    padding: 20px;
 }
 
 /*offer*/
 
-.offer1 p{
+.offer p{
     font-size: 12px;
     color: #bf4800;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 5px;
 }
 
-.offer1 h4 {
+.offer h4 {
     font-size: 40px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 5px;
 }
 
-.offer1 h5 {
+.offer h5 {
     font-size: 21px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.offer2 {
-    font-size: 17px;
-    color: #06c;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 50px;
-    margin-right: 230px;
-    margin-left: 230px;
 }
 
 .offer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    height: 624px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_medium.jpg);
+    background-size: cover;
+    background-position: center ;
 }
 
-.offer1 {
-    position: absolute;
+.offer2 {
+    text-decoration: none;
+    color:#06c;
+    margin: 0px 20px;
 }
+
+.links5 {
+    padding: 20px;
+}   
 
 /*future*/
 
-.future1 h4 {
+.future h4 {
     font-size: 40px;
-    color: white;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 0px;
+    color: white;  
 }
 
-.future1 h5 {
+.future h5 {
     font-size: 21px;
-    color: white;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
-
-.future2 {
-    font-size: 17px;
-    color: #06c;
-    text-decoration: none;
-    text-align: center;
-    margin-right: 10px;
-    margin-top: 25px;
+    color: white;   
 }
 
 .future {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    height: 624px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_medium.jpg);    
+    background-size: cover;
+    background-position: center ;
 }
 
-.future1 {
-    position: absolute;
+.future2 {
+    text-decoration: none;
+    color:#06c;
+    margin: 0px 20px;
 }
+
+.links6 {
+    padding: 20px;
+}   
 
 /*power*/
 
-.power1 h4 {
+.power h4 {
     font-size: 40px;
     color: #f5f5f7;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 0px;
 }
 
-.power1 h5 {
+.power h5 {
     font-size: 21px ;
     color: #fec2eb ;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
 }
 
-.power2 {
-    font-size: 17px;
-    color: #06c;
-    text-align: center;
-    margin-right: 10px;
-    text-decoration: none;
-    margin-top: 15px;
-}
 .power {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    height: 624px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/iphone-13/tile_iphone_13__d9w82q7fwceq_medium.jpg);    
+    background-size: cover;
+    background-position: center;
     align-items: center;
 }
 
-.power1 {
-    position: absolute;
+.power2 {
+    text-decoration: none;
+    color:#06c;
+    margin: 0px 20px;
 }
+
+.links7 {
+    padding: 20px;
+}   
 
 /*now*/
 
@@ -393,37 +330,40 @@ h1 {
     margin-bottom: 0px;
 }
 
-.now1 h5 {
+.now h5 {
     font-size: 21px ;
+}
+
+.now {
+    height: 624px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    padding-top: 50px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg);    
+    background-size: cover;
+    background-position: center ;
 }
 
 .now2 {
-    font-size: 17px;
-    color: #06c;
-    text-align: center;
-    margin-right: 10px;
     text-decoration: none;
-    margin-top: 20px;
-}
-.now {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    color:#06c;
+    margin: 0px 20px;
 }
 
-.now1 {
-    position: absolute;
-}
+.links8 {
+    padding: 20px;
+}   
 
 /*Caja*/
 
-.caja {
+.contenedor, .contenedor1, .contenedor2 {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
+.mini {
+    height: 624px;
+    flex-grow: 1;
+    margin: 15px;
+    min-width: 350px;
+    flex-basis: 0;
+}
