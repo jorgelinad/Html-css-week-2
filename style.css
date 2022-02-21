@@ -383,6 +383,7 @@ h1 {
 .contenedor, .contenedor1, .contenedor2 {
     display: flex;
     flex-wrap: wrap;
+    margin: 15px;
 }
 
 .mini {
